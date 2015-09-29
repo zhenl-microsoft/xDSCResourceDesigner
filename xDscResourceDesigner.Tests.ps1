@@ -4,7 +4,7 @@
 end
 {
     Remove-Module [x]DscResourceDesigner -Force
-    Import-Module $PSScriptRoot\xDscResourceDesigner.psd1 -ErrorAction Stop
+    #Import-Module $PSScriptRoot\xDscResourceDesigner.psd1 -ErrorAction Stop
 
     Describe 'xDscResourceDesigner' {
         It 'Should not error if imported twice' {
